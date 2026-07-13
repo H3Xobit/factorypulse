@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-07-13T01:15:00Z",
+  "n": 10,
+  "diagnosis_accuracy": 0.9,
+  "retrieval_precision_at_5": 1.0,
+  "hallucination_rate": 0.0,
+  "latency_p50_s": 0.03,
+  "latency_p95_s": 0.05,
+  "cost_per_report_usd": 0.0
+}

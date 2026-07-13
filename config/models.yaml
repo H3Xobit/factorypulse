@@ -1,0 +1,34 @@
+# Model routing. Fallback: if only one provider key is present, use that provider for all steps.
+version: 1
+defaults:
+  temperature:
+    diagnose: 0.2
+    verify: 0.0
+    translate: 0.0
+    judge: 0.0
+  seed: 42
+
+routing:
+  diagnose:
+    provider: anthropic
+    model: claude-sonnet-4-6
+  verify:
+    provider: groq
+    model: llama-3.3-70b-versatile
+    fallback_provider: anthropic
+    fallback_model: claude-sonnet-4-6
+  translate:
+    provider: groq
+    model: llama-3.3-70b-versatile
+    fallback_provider: anthropic
+    fallback_model: claude-sonnet-4-6
+  embeddings:
+    provider: local
+    model: BAAI/bge-m3
+  audio_detector:
+    provider: local
+    model: logmel_gbm
+  timeseries_detector:
+    provider: local
+    model: chronos-bolt-small
+    fallback_model: residual_zscore

@@ -1,0 +1,202 @@
+[
+  {
+    "id": "INC-041",
+    "machine": "vffs_packager",
+    "fault_code": "E-105",
+    "symptom_description": "E-102 flashing during changeover (E-105)",
+    "expected_root_cause": "Worn PTFE seal tape",
+    "relevant_manual_section_ids": [
+      "vffs_packager:E-105"
+    ]
+  },
+  {
+    "id": "INC-042",
+    "machine": "vffs_packager",
+    "fault_code": "E-110",
+    "symptom_description": "E-102 flashing during changeover (E-110)",
+    "expected_root_cause": "Thermocouple lag on jaw B",
+    "relevant_manual_section_ids": [
+      "vffs_packager:E-110"
+    ]
+  },
+  {
+    "id": "INC-043",
+    "machine": "centrifugal_pump",
+    "fault_code": "E-225",
+    "symptom_description": "Flow instability with audible knock (E-225)",
+    "expected_root_cause": "Coupling misalignment after maintenance",
+    "relevant_manual_section_ids": [
+      "centrifugal_pump:E-225"
+    ]
+  },
+  {
+    "id": "INC-044",
+    "machine": "fan_unit",
+    "fault_code": "E-312",
+    "symptom_description": "Rising acceleration peak on fan bearing (E-312)",
+    "expected_root_cause": "Fan blade imbalance from dust buildup",
+    "relevant_manual_section_ids": [
+      "fan_unit:E-312"
+    ]
+  },
+  {
+    "id": "INC-045",
+    "machine": "vffs_packager",
+    "fault_code": "E-105",
+    "symptom_description": "Seal jaw temperature deviation alarms (E-105)",
+    "expected_root_cause": "Worn PTFE seal tape",
+    "relevant_manual_section_ids": [
+      "vffs_packager:E-105"
+    ]
+  },
+  {
+    "id": "INC-046",
+    "machine": "vffs_packager",
+    "fault_code": "E-110",
+    "symptom_description": "Seal jaw temperature deviation alarms (E-110)",
+    "expected_root_cause": "Thermocouple lag on jaw B",
+    "relevant_manual_section_ids": [
+      "vffs_packager:E-110"
+    ]
+  },
+  {
+    "id": "INC-047",
+    "machine": "fan_unit",
+    "fault_code": "E-315",
+    "symptom_description": "Rising acceleration peak on fan bearing (E-315)",
+    "expected_root_cause": "Loose pedestal bolts",
+    "relevant_manual_section_ids": [
+      "fan_unit:E-315"
+    ]
+  },
+  {
+    "id": "INC-048",
+    "machine": "vffs_packager",
+    "fault_code": "E-105",
+    "symptom_description": "Seal jaw temperature deviation alarms (E-105)",
+    "expected_root_cause": "Worn PTFE seal tape",
+    "relevant_manual_section_ids": [
+      "vffs_packager:E-105"
+    ]
+  },
+  {
+    "id": "INC-049",
+    "machine": "centrifugal_pump",
+    "fault_code": "E-225",
+    "symptom_description": "Abnormal pump audio signature (E-225)",
+    "expected_root_cause": "Coupling misalignment after maintenance",
+    "relevant_manual_section_ids": [
+      "centrifugal_pump:E-225"
+    ]
+  },
+  {
+    "id": "INC-050",
+    "machine": "vffs_packager",
+    "fault_code": "E-110",
+    "symptom_description": "E-102 flashing during changeover (E-110)",
+    "expected_root_cause": "Thermocouple lag on jaw B",
+    "relevant_manual_section_ids": [
+      "vffs_packager:E-110"
+    ]
+  },
+  {
+    "id": "INC-051",
+    "machine": "vffs_packager",
+    "fault_code": "E-105",
+    "symptom_description": "Intermittent weak seals on pouch top (E-105)",
+    "expected_root_cause": "Worn PTFE seal tape",
+    "relevant_manual_section_ids": [
+      "vffs_packager:E-105"
+    ]
+  },
+  {
+    "id": "INC-052",
+    "machine": "vffs_packager",
+    "fault_code": "E-110",
+    "symptom_description": "Intermittent weak seals on pouch top (E-110)",
+    "expected_root_cause": "Thermocouple lag on jaw B",
+    "relevant_manual_section_ids": [
+      "vffs_packager:E-110"
+    ]
+  },
+  {
+    "id": "INC-053",
+    "machine": "centrifugal_pump",
+    "fault_code": "E-AUDIO",
+    "symptom_description": "Flow instability with audible knock (E-AUDIO)",
+    "expected_root_cause": "Bearing grease contamination",
+    "relevant_manual_section_ids": [
+      "centrifugal_pump:E-AUDIO"
+    ]
+  },
+  {
+    "id": "INC-054",
+    "machine": "vffs_packager",
+    "fault_code": "E-102",
+    "symptom_description": "Intermittent weak seals on pouch top (E-102)",
+    "expected_root_cause": "Seal jaw heater PID drift",
+    "relevant_manual_section_ids": [
+      "vffs_packager:E-102"
+    ]
+  },
+  {
+    "id": "INC-055",
+    "machine": "vffs_packager",
+    "fault_code": "E-102",
+    "symptom_description": "Seal jaw temperature deviation alarms (E-102)",
+    "expected_root_cause": "Seal jaw heater PID drift",
+    "relevant_manual_section_ids": [
+      "vffs_packager:E-102"
+    ]
+  },
+  {
+    "id": "INC-056",
+    "machine": "vffs_packager",
+    "fault_code": "E-105",
+    "symptom_description": "Seal jaw temperature deviation alarms (E-105)",
+    "expected_root_cause": "Worn PTFE seal tape",
+    "relevant_manual_section_ids": [
+      "vffs_packager:E-105"
+    ]
+  },
+  {
+    "id": "INC-057",
+    "machine": "vffs_packager",
+    "fault_code": "E-102",
+    "symptom_description": "Intermittent weak seals on pouch top (E-102)",
+    "expected_root_cause": "Seal jaw heater PID drift",
+    "relevant_manual_section_ids": [
+      "vffs_packager:E-102"
+    ]
+  },
+  {
+    "id": "INC-058",
+    "machine": "vffs_packager",
+    "fault_code": "E-110",
+    "symptom_description": "E-102 flashing during changeover (E-110)",
+    "expected_root_cause": "Thermocouple lag on jaw B",
+    "relevant_manual_section_ids": [
+      "vffs_packager:E-110"
+    ]
+  },
+  {
+    "id": "INC-059",
+    "machine": "vffs_packager",
+    "fault_code": "E-102",
+    "symptom_description": "Intermittent weak seals on pouch top (E-102)",
+    "expected_root_cause": "Seal jaw heater PID drift",
+    "relevant_manual_section_ids": [
+      "vffs_packager:E-102"
+    ]
+  },
+  {
+    "id": "INC-060",
+    "machine": "vffs_packager",
+    "fault_code": "E-105",
+    "symptom_description": "Seal jaw temperature deviation alarms (E-105)",
+    "expected_root_cause": "Worn PTFE seal tape",
+    "relevant_manual_section_ids": [
+      "vffs_packager:E-105"
+    ]
+  }
+]

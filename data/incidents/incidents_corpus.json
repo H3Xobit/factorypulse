@@ -1,0 +1,562 @@
+[
+  {
+    "id": "INC-001",
+    "timestamp": "2024-01-04T08:00:00+00:00",
+    "machine": "fan_unit",
+    "fault_code": "E-310",
+    "symptom_description": "Rising acceleration peak on fan bearing (E-310)",
+    "root_cause": "Outer race bearing spall",
+    "resolution": "Corrected outer race bearing spall; verified clear of E-310",
+    "downtime_minutes": 77,
+    "manual_section_ids": [
+      "fan_unit:E-310"
+    ],
+    "split": "corpus"
+  },
+  {
+    "id": "INC-002",
+    "timestamp": "2024-01-07T03:00:00+00:00",
+    "machine": "vffs_packager",
+    "fault_code": "E-102",
+    "symptom_description": "E-102 flashing during changeover",
+    "root_cause": "Seal jaw heater PID drift",
+    "resolution": "Corrected seal jaw heater pid drift; verified clear of E-102",
+    "downtime_minutes": 154,
+    "manual_section_ids": [
+      "vffs_packager:E-102"
+    ],
+    "split": "corpus"
+  },
+  {
+    "id": "INC-003",
+    "timestamp": "2024-01-10T01:00:00+00:00",
+    "machine": "vffs_packager",
+    "fault_code": "E-110",
+    "symptom_description": "Intermittent weak seals on pouch top (E-110)",
+    "root_cause": "Thermocouple lag on jaw B",
+    "resolution": "Corrected thermocouple lag on jaw b; verified clear of E-110",
+    "downtime_minutes": 22,
+    "manual_section_ids": [
+      "vffs_packager:E-110"
+    ],
+    "split": "corpus"
+  },
+  {
+    "id": "INC-004",
+    "timestamp": "2024-01-13T16:00:00+00:00",
+    "machine": "vffs_packager",
+    "fault_code": "E-102",
+    "symptom_description": "Seal jaw temperature deviation alarms (E-102)",
+    "root_cause": "Seal jaw heater PID drift",
+    "resolution": "Corrected seal jaw heater pid drift; verified clear of E-102",
+    "downtime_minutes": 169,
+    "manual_section_ids": [
+      "vffs_packager:E-102"
+    ],
+    "split": "corpus"
+  },
+  {
+    "id": "INC-005",
+    "timestamp": "2024-01-16T20:00:00+00:00",
+    "machine": "vffs_packager",
+    "fault_code": "E-110",
+    "symptom_description": "Seal jaw temperature deviation alarms (E-110)",
+    "root_cause": "Thermocouple lag on jaw B",
+    "resolution": "Corrected thermocouple lag on jaw b; verified clear of E-110",
+    "downtime_minutes": 154,
+    "manual_section_ids": [
+      "vffs_packager:E-110"
+    ],
+    "split": "corpus"
+  },
+  {
+    "id": "INC-006",
+    "timestamp": "2024-01-19T18:00:00+00:00",
+    "machine": "centrifugal_pump",
+    "fault_code": "E-220",
+    "symptom_description": "Abnormal pump audio signature (E-220)",
+    "root_cause": "Impeller cavitation from low NPSH",
+    "resolution": "Corrected impeller cavitation from low npsh; verified clear of E-220",
+    "downtime_minutes": 86,
+    "manual_section_ids": [
+      "centrifugal_pump:E-220"
+    ],
+    "split": "corpus"
+  },
+  {
+    "id": "INC-007",
+    "timestamp": "2024-01-22T13:00:00+00:00",
+    "machine": "vffs_packager",
+    "fault_code": "E-102",
+    "symptom_description": "E-102 flashing during changeover",
+    "root_cause": "Seal jaw heater PID drift",
+    "resolution": "Corrected seal jaw heater pid drift; verified clear of E-102",
+    "downtime_minutes": 102,
+    "manual_section_ids": [
+      "vffs_packager:E-102"
+    ],
+    "split": "corpus"
+  },
+  {
+    "id": "INC-008",
+    "timestamp": "2024-01-25T10:00:00+00:00",
+    "machine": "centrifugal_pump",
+    "fault_code": "E-220",
+    "symptom_description": "High vibration RMS on pump skid (E-220)",
+    "root_cause": "Impeller cavitation from low NPSH",
+    "resolution": "Corrected impeller cavitation from low npsh; verified clear of E-220",
+    "downtime_minutes": 41,
+    "manual_section_ids": [
+      "centrifugal_pump:E-220"
+    ],
+    "split": "corpus"
+  },
+  {
+    "id": "INC-009",
+    "timestamp": "2024-01-28T11:00:00+00:00",
+    "machine": "vffs_packager",
+    "fault_code": "E-105",
+    "symptom_description": "Seal jaw temperature deviation alarms (E-105)",
+    "root_cause": "Worn PTFE seal tape",
+    "resolution": "Corrected worn ptfe seal tape; verified clear of E-105",
+    "downtime_minutes": 103,
+    "manual_section_ids": [
+      "vffs_packager:E-105"
+    ],
+    "split": "corpus"
+  },
+  {
+    "id": "INC-010",
+    "timestamp": "2024-01-31T14:00:00+00:00",
+    "machine": "fan_unit",
+    "fault_code": "E-312",
+    "symptom_description": "Rising acceleration peak on fan bearing (E-312)",
+    "root_cause": "Fan blade imbalance from dust buildup",
+    "resolution": "Corrected fan blade imbalance from dust buildup; verified clear of E-312",
+    "downtime_minutes": 152,
+    "manual_section_ids": [
+      "fan_unit:E-312"
+    ],
+    "split": "corpus"
+  },
+  {
+    "id": "INC-011",
+    "timestamp": "2024-02-03T17:00:00+00:00",
+    "machine": "vffs_packager",
+    "fault_code": "E-105",
+    "symptom_description": "Seal jaw temperature deviation alarms (E-105)",
+    "root_cause": "Worn PTFE seal tape",
+    "resolution": "Corrected worn ptfe seal tape; verified clear of E-105",
+    "downtime_minutes": 90,
+    "manual_section_ids": [
+      "vffs_packager:E-105"
+    ],
+    "split": "corpus"
+  },
+  {
+    "id": "INC-012",
+    "timestamp": "2024-02-06T18:00:00+00:00",
+    "machine": "fan_unit",
+    "fault_code": "E-315",
+    "symptom_description": "Metallic ticking at 1x running speed (E-315)",
+    "root_cause": "Loose pedestal bolts",
+    "resolution": "Corrected loose pedestal bolts; verified clear of E-315",
+    "downtime_minutes": 64,
+    "manual_section_ids": [
+      "fan_unit:E-315"
+    ],
+    "split": "corpus"
+  },
+  {
+    "id": "INC-013",
+    "timestamp": "2024-02-09T07:00:00+00:00",
+    "machine": "fan_unit",
+    "fault_code": "E-310",
+    "symptom_description": "Rising acceleration peak on fan bearing (E-310)",
+    "root_cause": "Outer race bearing spall",
+    "resolution": "Corrected outer race bearing spall; verified clear of E-310",
+    "downtime_minutes": 89,
+    "manual_section_ids": [
+      "fan_unit:E-310"
+    ],
+    "split": "corpus"
+  },
+  {
+    "id": "INC-014",
+    "timestamp": "2024-02-12T12:00:00+00:00",
+    "machine": "vffs_packager",
+    "fault_code": "E-102",
+    "symptom_description": "Seal jaw temperature deviation alarms (E-102)",
+    "root_cause": "Seal jaw heater PID drift",
+    "resolution": "Corrected seal jaw heater pid drift; verified clear of E-102",
+    "downtime_minutes": 86,
+    "manual_section_ids": [
+      "vffs_packager:E-102"
+    ],
+    "split": "corpus"
+  },
+  {
+    "id": "INC-015",
+    "timestamp": "2024-02-15T05:00:00+00:00",
+    "machine": "centrifugal_pump",
+    "fault_code": "E-225",
+    "symptom_description": "Abnormal pump audio signature (E-225)",
+    "root_cause": "Coupling misalignment after maintenance",
+    "resolution": "Corrected coupling misalignment after maintenance; verified clear of E-225",
+    "downtime_minutes": 109,
+    "manual_section_ids": [
+      "centrifugal_pump:E-225"
+    ],
+    "split": "corpus"
+  },
+  {
+    "id": "INC-016",
+    "timestamp": "2024-02-18T08:00:00+00:00",
+    "machine": "centrifugal_pump",
+    "fault_code": "E-220",
+    "symptom_description": "Flow instability with audible knock (E-220)",
+    "root_cause": "Impeller cavitation from low NPSH",
+    "resolution": "Corrected impeller cavitation from low npsh; verified clear of E-220",
+    "downtime_minutes": 180,
+    "manual_section_ids": [
+      "centrifugal_pump:E-220"
+    ],
+    "split": "corpus"
+  },
+  {
+    "id": "INC-017",
+    "timestamp": "2024-02-21T05:00:00+00:00",
+    "machine": "vffs_packager",
+    "fault_code": "E-110",
+    "symptom_description": "E-102 flashing during changeover (E-110)",
+    "root_cause": "Thermocouple lag on jaw B",
+    "resolution": "Corrected thermocouple lag on jaw b; verified clear of E-110",
+    "downtime_minutes": 151,
+    "manual_section_ids": [
+      "vffs_packager:E-110"
+    ],
+    "split": "corpus"
+  },
+  {
+    "id": "INC-018",
+    "timestamp": "2024-02-24T14:00:00+00:00",
+    "machine": "fan_unit",
+    "fault_code": "E-310",
+    "symptom_description": "Rising acceleration peak on fan bearing (E-310)",
+    "root_cause": "Outer race bearing spall",
+    "resolution": "Corrected outer race bearing spall; verified clear of E-310",
+    "downtime_minutes": 112,
+    "manual_section_ids": [
+      "fan_unit:E-310"
+    ],
+    "split": "corpus"
+  },
+  {
+    "id": "INC-019",
+    "timestamp": "2024-02-27T17:00:00+00:00",
+    "machine": "centrifugal_pump",
+    "fault_code": "E-225",
+    "symptom_description": "Flow instability with audible knock (E-225)",
+    "root_cause": "Coupling misalignment after maintenance",
+    "resolution": "Corrected coupling misalignment after maintenance; verified clear of E-225",
+    "downtime_minutes": 71,
+    "manual_section_ids": [
+      "centrifugal_pump:E-225"
+    ],
+    "split": "corpus"
+  },
+  {
+    "id": "INC-020",
+    "timestamp": "2024-03-01T07:00:00+00:00",
+    "machine": "fan_unit",
+    "fault_code": "E-312",
+    "symptom_description": "Rising acceleration peak on fan bearing (E-312)",
+    "root_cause": "Fan blade imbalance from dust buildup",
+    "resolution": "Corrected fan blade imbalance from dust buildup; verified clear of E-312",
+    "downtime_minutes": 23,
+    "manual_section_ids": [
+      "fan_unit:E-312"
+    ],
+    "split": "corpus"
+  },
+  {
+    "id": "INC-021",
+    "timestamp": "2024-03-04T02:00:00+00:00",
+    "machine": "centrifugal_pump",
+    "fault_code": "E-AUDIO",
+    "symptom_description": "Abnormal pump audio signature (E-AUDIO)",
+    "root_cause": "Bearing grease contamination",
+    "resolution": "Corrected bearing grease contamination; verified clear of E-AUDIO",
+    "downtime_minutes": 69,
+    "manual_section_ids": [
+      "centrifugal_pump:E-AUDIO"
+    ],
+    "split": "corpus"
+  },
+  {
+    "id": "INC-022",
+    "timestamp": "2024-03-07T06:00:00+00:00",
+    "machine": "fan_unit",
+    "fault_code": "E-315",
+    "symptom_description": "Metallic ticking at 1x running speed (E-315)",
+    "root_cause": "Loose pedestal bolts",
+    "resolution": "Corrected loose pedestal bolts; verified clear of E-315",
+    "downtime_minutes": 142,
+    "manual_section_ids": [
+      "fan_unit:E-315"
+    ],
+    "split": "corpus"
+  },
+  {
+    "id": "INC-023",
+    "timestamp": "2024-03-10T04:00:00+00:00",
+    "machine": "centrifugal_pump",
+    "fault_code": "E-225",
+    "symptom_description": "Abnormal pump audio signature (E-225)",
+    "root_cause": "Coupling misalignment after maintenance",
+    "resolution": "Corrected coupling misalignment after maintenance; verified clear of E-225",
+    "downtime_minutes": 82,
+    "manual_section_ids": [
+      "centrifugal_pump:E-225"
+    ],
+    "split": "corpus"
+  },
+  {
+    "id": "INC-024",
+    "timestamp": "2024-03-13T17:00:00+00:00",
+    "machine": "vffs_packager",
+    "fault_code": "E-102",
+    "symptom_description": "E-102 flashing during changeover",
+    "root_cause": "Seal jaw heater PID drift",
+    "resolution": "Corrected seal jaw heater pid drift; verified clear of E-102",
+    "downtime_minutes": 152,
+    "manual_section_ids": [
+      "vffs_packager:E-102"
+    ],
+    "split": "corpus"
+  },
+  {
+    "id": "INC-025",
+    "timestamp": "2024-03-16T13:00:00+00:00",
+    "machine": "centrifugal_pump",
+    "fault_code": "E-225",
+    "symptom_description": "Flow instability with audible knock (E-225)",
+    "root_cause": "Coupling misalignment after maintenance",
+    "resolution": "Corrected coupling misalignment after maintenance; verified clear of E-225",
+    "downtime_minutes": 164,
+    "manual_section_ids": [
+      "centrifugal_pump:E-225"
+    ],
+    "split": "corpus"
+  },
+  {
+    "id": "INC-026",
+    "timestamp": "2024-03-19T04:00:00+00:00",
+    "machine": "centrifugal_pump",
+    "fault_code": "E-AUDIO",
+    "symptom_description": "High vibration RMS on pump skid (E-AUDIO)",
+    "root_cause": "Bearing grease contamination",
+    "resolution": "Corrected bearing grease contamination; verified clear of E-AUDIO",
+    "downtime_minutes": 145,
+    "manual_section_ids": [
+      "centrifugal_pump:E-AUDIO"
+    ],
+    "split": "corpus"
+  },
+  {
+    "id": "INC-027",
+    "timestamp": "2024-03-22T03:00:00+00:00",
+    "machine": "centrifugal_pump",
+    "fault_code": "E-220",
+    "symptom_description": "High vibration RMS on pump skid (E-220)",
+    "root_cause": "Impeller cavitation from low NPSH",
+    "resolution": "Corrected impeller cavitation from low npsh; verified clear of E-220",
+    "downtime_minutes": 54,
+    "manual_section_ids": [
+      "centrifugal_pump:E-220"
+    ],
+    "split": "corpus"
+  },
+  {
+    "id": "INC-028",
+    "timestamp": "2024-03-25T13:00:00+00:00",
+    "machine": "fan_unit",
+    "fault_code": "E-310",
+    "symptom_description": "E-310 bearing acceleration fault",
+    "root_cause": "Outer race bearing spall",
+    "resolution": "Corrected outer race bearing spall; verified clear of E-310",
+    "downtime_minutes": 167,
+    "manual_section_ids": [
+      "fan_unit:E-310"
+    ],
+    "split": "corpus"
+  },
+  {
+    "id": "INC-029",
+    "timestamp": "2024-03-28T19:00:00+00:00",
+    "machine": "vffs_packager",
+    "fault_code": "E-105",
+    "symptom_description": "Intermittent weak seals on pouch top (E-105)",
+    "root_cause": "Worn PTFE seal tape",
+    "resolution": "Corrected worn ptfe seal tape; verified clear of E-105",
+    "downtime_minutes": 134,
+    "manual_section_ids": [
+      "vffs_packager:E-105"
+    ],
+    "split": "corpus"
+  },
+  {
+    "id": "INC-030",
+    "timestamp": "2024-03-31T00:00:00+00:00",
+    "machine": "fan_unit",
+    "fault_code": "E-312",
+    "symptom_description": "E-310 bearing acceleration fault (E-312)",
+    "root_cause": "Fan blade imbalance from dust buildup",
+    "resolution": "Corrected fan blade imbalance from dust buildup; verified clear of E-312",
+    "downtime_minutes": 44,
+    "manual_section_ids": [
+      "fan_unit:E-312"
+    ],
+    "split": "corpus"
+  },
+  {
+    "id": "INC-031",
+    "timestamp": "2024-04-03T20:00:00+00:00",
+    "machine": "fan_unit",
+    "fault_code": "E-315",
+    "symptom_description": "Metallic ticking at 1x running speed (E-315)",
+    "root_cause": "Loose pedestal bolts",
+    "resolution": "Corrected loose pedestal bolts; verified clear of E-315",
+    "downtime_minutes": 102,
+    "manual_section_ids": [
+      "fan_unit:E-315"
+    ],
+    "split": "corpus"
+  },
+  {
+    "id": "INC-032",
+    "timestamp": "2024-04-06T05:00:00+00:00",
+    "machine": "vffs_packager",
+    "fault_code": "E-105",
+    "symptom_description": "Intermittent weak seals on pouch top (E-105)",
+    "root_cause": "Worn PTFE seal tape",
+    "resolution": "Corrected worn ptfe seal tape; verified clear of E-105",
+    "downtime_minutes": 131,
+    "manual_section_ids": [
+      "vffs_packager:E-105"
+    ],
+    "split": "corpus"
+  },
+  {
+    "id": "INC-033",
+    "timestamp": "2024-04-09T08:00:00+00:00",
+    "machine": "vffs_packager",
+    "fault_code": "E-110",
+    "symptom_description": "E-102 flashing during changeover (E-110)",
+    "root_cause": "Thermocouple lag on jaw B",
+    "resolution": "Corrected thermocouple lag on jaw b; verified clear of E-110",
+    "downtime_minutes": 143,
+    "manual_section_ids": [
+      "vffs_packager:E-110"
+    ],
+    "split": "corpus"
+  },
+  {
+    "id": "INC-034",
+    "timestamp": "2024-04-12T20:00:00+00:00",
+    "machine": "vffs_packager",
+    "fault_code": "E-110",
+    "symptom_description": "Seal jaw temperature deviation alarms (E-110)",
+    "root_cause": "Thermocouple lag on jaw B",
+    "resolution": "Corrected thermocouple lag on jaw b; verified clear of E-110",
+    "downtime_minutes": 91,
+    "manual_section_ids": [
+      "vffs_packager:E-110"
+    ],
+    "split": "corpus"
+  },
+  {
+    "id": "INC-035",
+    "timestamp": "2024-04-15T06:00:00+00:00",
+    "machine": "fan_unit",
+    "fault_code": "E-315",
+    "symptom_description": "E-310 bearing acceleration fault (E-315)",
+    "root_cause": "Loose pedestal bolts",
+    "resolution": "Corrected loose pedestal bolts; verified clear of E-315",
+    "downtime_minutes": 54,
+    "manual_section_ids": [
+      "fan_unit:E-315"
+    ],
+    "split": "corpus"
+  },
+  {
+    "id": "INC-036",
+    "timestamp": "2024-04-18T16:00:00+00:00",
+    "machine": "centrifugal_pump",
+    "fault_code": "E-220",
+    "symptom_description": "Flow instability with audible knock (E-220)",
+    "root_cause": "Impeller cavitation from low NPSH",
+    "resolution": "Corrected impeller cavitation from low npsh; verified clear of E-220",
+    "downtime_minutes": 15,
+    "manual_section_ids": [
+      "centrifugal_pump:E-220"
+    ],
+    "split": "corpus"
+  },
+  {
+    "id": "INC-037",
+    "timestamp": "2024-04-21T00:00:00+00:00",
+    "machine": "fan_unit",
+    "fault_code": "E-312",
+    "symptom_description": "Metallic ticking at 1x running speed (E-312)",
+    "root_cause": "Fan blade imbalance from dust buildup",
+    "resolution": "Corrected fan blade imbalance from dust buildup; verified clear of E-312",
+    "downtime_minutes": 43,
+    "manual_section_ids": [
+      "fan_unit:E-312"
+    ],
+    "split": "corpus"
+  },
+  {
+    "id": "INC-038",
+    "timestamp": "2024-04-24T01:00:00+00:00",
+    "machine": "centrifugal_pump",
+    "fault_code": "E-AUDIO",
+    "symptom_description": "High vibration RMS on pump skid (E-AUDIO)",
+    "root_cause": "Bearing grease contamination",
+    "resolution": "Corrected bearing grease contamination; verified clear of E-AUDIO",
+    "downtime_minutes": 76,
+    "manual_section_ids": [
+      "centrifugal_pump:E-AUDIO"
+    ],
+    "split": "corpus"
+  },
+  {
+    "id": "INC-039",
+    "timestamp": "2024-04-27T15:00:00+00:00",
+    "machine": "fan_unit",
+    "fault_code": "E-310",
+    "symptom_description": "Rising acceleration peak on fan bearing (E-310)",
+    "root_cause": "Outer race bearing spall",
+    "resolution": "Corrected outer race bearing spall; verified clear of E-310",
+    "downtime_minutes": 32,
+    "manual_section_ids": [
+      "fan_unit:E-310"
+    ],
+    "split": "corpus"
+  },
+  {
+    "id": "INC-040",
+    "timestamp": "2024-04-30T15:00:00+00:00",
+    "machine": "fan_unit",
+    "fault_code": "E-310",
+    "symptom_description": "Rising acceleration peak on fan bearing (E-310)",
+    "root_cause": "Outer race bearing spall",
+    "resolution": "Corrected outer race bearing spall; verified clear of E-310",
+    "downtime_minutes": 155,
+    "manual_section_ids": [
+      "fan_unit:E-310"
+    ],
+    "split": "corpus"
+  }
+]

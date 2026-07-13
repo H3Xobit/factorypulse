@@ -1,0 +1,31 @@
+# Static rules for the packaging line simulator
+version: 1
+rules:
+  seal_temp_c:
+    machine: vffs_packager
+    metric: seal_jaw_temp_c
+    warn_above: 185.0
+    fault_above: 195.0
+    fault_code: E-102
+    description: Seal jaw temperature deviation
+  pump_vibration_rms:
+    machine: centrifugal_pump
+    metric: vibration_rms
+    warn_above: 0.35
+    fault_above: 0.55
+    fault_code: E-220
+    description: Pump vibration RMS above limit
+  bearing_acceleration_peak:
+    machine: fan_unit
+    metric: accel_peak_g
+    warn_above: 2.5
+    fault_above: 4.0
+    fault_code: E-310
+    description: Bearing acceleration peak
+  audio_anomaly_score:
+    machine: any
+    metric: audio_anomaly_score
+    warn_above: 0.65
+    fault_above: 0.80
+    fault_code: E-AUDIO
+    description: Audio classifier anomaly score

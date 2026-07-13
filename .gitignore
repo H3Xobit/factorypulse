@@ -1,0 +1,45 @@
+# Secrets
+.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+dist/
+build/
+
+# Data downloads
+data/audio/mimii/
+data/audio/bearing/
+data/cache/*
+!data/cache/.gitkeep
+data/audio_chunks/*
+!data/audio_chunks/.gitkeep
+!data/incidents/.gitkeep
+!data/manuals/.gitkeep
+
+# Models
+artifacts/
+*.gguf
+*.pt
+*.onnx
+
+# Node
+web/node_modules/
+web/.next/
+web/out/
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+
+# Eval dumps
+evals/results/*
+!evals/results/.gitkeep

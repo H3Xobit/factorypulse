@@ -1,0 +1,461 @@
+[
+  {
+    "doc_id": "manual_vffs",
+    "section_id": "vffs_packager:overview",
+    "source_type": "manual",
+    "machine": "vffs_packager",
+    "fault_code": null,
+    "title": "1. Overview",
+    "body": "Vertical Form-Fill-Seal Packaging Machine Manual. Rated for continuous packaging-line duty. Follow lockout/tagout before any intrusive maintenance."
+  },
+  {
+    "doc_id": "manual_vffs",
+    "section_id": "vffs_packager:safety",
+    "source_type": "manual",
+    "machine": "vffs_packager",
+    "fault_code": null,
+    "title": "2. Safety",
+    "body": "Isolate energy sources. Wear hearing protection near rotating equipment. Do not bypass interlocks during production."
+  },
+  {
+    "doc_id": "manual_vffs",
+    "section_id": "vffs_packager:E-102",
+    "source_type": "manual",
+    "machine": "vffs_packager",
+    "fault_code": "E-102",
+    "title": "3. Fault E-102",
+    "body": "Fault code E-102: Seal jaw temperature deviation. Troubleshooting: Check heater SSR, PID tune, thermocouple. Related spare parts: HJ-220 heater cartridge, TC-K-jaw thermocouple, PTFE-25 seal tape."
+  },
+  {
+    "doc_id": "manual_vffs",
+    "section_id": "vffs_packager:E-105",
+    "source_type": "manual",
+    "machine": "vffs_packager",
+    "fault_code": "E-105",
+    "title": "3. Fault E-105",
+    "body": "Fault code E-105: Film tracking offset. Troubleshooting: Inspect dancer rollers and edge sensor. Related spare parts: HJ-220 heater cartridge, TC-K-jaw thermocouple, PTFE-25 seal tape."
+  },
+  {
+    "doc_id": "manual_vffs",
+    "section_id": "vffs_packager:E-110",
+    "source_type": "manual",
+    "machine": "vffs_packager",
+    "fault_code": "E-110",
+    "title": "3. Fault E-110",
+    "body": "Fault code E-110: Jaw pressure low. Troubleshooting: Verify pneumatic regulator and jaw bushings. Related spare parts: HJ-220 heater cartridge, TC-K-jaw thermocouple, PTFE-25 seal tape."
+  },
+  {
+    "doc_id": "manual_vffs",
+    "section_id": "vffs_packager:maintenance",
+    "source_type": "manual",
+    "machine": "vffs_packager",
+    "fault_code": null,
+    "title": "4. Preventive maintenance",
+    "body": "Daily: listen for abnormal noise. Weekly: vibration spot check. Monthly: inspect fasteners, lubrication, and seals."
+  },
+  {
+    "doc_id": "manual_vffs",
+    "section_id": "vffs_packager:proc-01",
+    "source_type": "manual",
+    "machine": "vffs_packager",
+    "fault_code": null,
+    "title": "5.1 Operating procedure block 1",
+    "body": "Confirm setpoints, verify sensors respond, record values in the shift log, and escalate to maintenance if fault codes reappear within 30 minutes. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. "
+  },
+  {
+    "doc_id": "manual_vffs",
+    "section_id": "vffs_packager:proc-02",
+    "source_type": "manual",
+    "machine": "vffs_packager",
+    "fault_code": null,
+    "title": "5.2 Operating procedure block 2",
+    "body": "Confirm setpoints, verify sensors respond, record values in the shift log, and escalate to maintenance if fault codes reappear within 30 minutes. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. "
+  },
+  {
+    "doc_id": "manual_vffs",
+    "section_id": "vffs_packager:proc-03",
+    "source_type": "manual",
+    "machine": "vffs_packager",
+    "fault_code": null,
+    "title": "5.3 Operating procedure block 3",
+    "body": "Confirm setpoints, verify sensors respond, record values in the shift log, and escalate to maintenance if fault codes reappear within 30 minutes. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. "
+  },
+  {
+    "doc_id": "manual_vffs",
+    "section_id": "vffs_packager:proc-04",
+    "source_type": "manual",
+    "machine": "vffs_packager",
+    "fault_code": null,
+    "title": "5.4 Operating procedure block 4",
+    "body": "Confirm setpoints, verify sensors respond, record values in the shift log, and escalate to maintenance if fault codes reappear within 30 minutes. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. "
+  },
+  {
+    "doc_id": "manual_vffs",
+    "section_id": "vffs_packager:proc-05",
+    "source_type": "manual",
+    "machine": "vffs_packager",
+    "fault_code": null,
+    "title": "5.5 Operating procedure block 5",
+    "body": "Confirm setpoints, verify sensors respond, record values in the shift log, and escalate to maintenance if fault codes reappear within 30 minutes. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. "
+  },
+  {
+    "doc_id": "manual_vffs",
+    "section_id": "vffs_packager:proc-06",
+    "source_type": "manual",
+    "machine": "vffs_packager",
+    "fault_code": null,
+    "title": "5.6 Operating procedure block 6",
+    "body": "Confirm setpoints, verify sensors respond, record values in the shift log, and escalate to maintenance if fault codes reappear within 30 minutes. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. "
+  },
+  {
+    "doc_id": "manual_vffs",
+    "section_id": "vffs_packager:proc-07",
+    "source_type": "manual",
+    "machine": "vffs_packager",
+    "fault_code": null,
+    "title": "5.7 Operating procedure block 7",
+    "body": "Confirm setpoints, verify sensors respond, record values in the shift log, and escalate to maintenance if fault codes reappear within 30 minutes. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. "
+  },
+  {
+    "doc_id": "manual_vffs",
+    "section_id": "vffs_packager:proc-08",
+    "source_type": "manual",
+    "machine": "vffs_packager",
+    "fault_code": null,
+    "title": "5.8 Operating procedure block 8",
+    "body": "Confirm setpoints, verify sensors respond, record values in the shift log, and escalate to maintenance if fault codes reappear within 30 minutes. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. "
+  },
+  {
+    "doc_id": "manual_vffs",
+    "section_id": "vffs_packager:proc-09",
+    "source_type": "manual",
+    "machine": "vffs_packager",
+    "fault_code": null,
+    "title": "5.9 Operating procedure block 9",
+    "body": "Confirm setpoints, verify sensors respond, record values in the shift log, and escalate to maintenance if fault codes reappear within 30 minutes. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. "
+  },
+  {
+    "doc_id": "manual_vffs",
+    "section_id": "vffs_packager:proc-10",
+    "source_type": "manual",
+    "machine": "vffs_packager",
+    "fault_code": null,
+    "title": "5.10 Operating procedure block 10",
+    "body": "Confirm setpoints, verify sensors respond, record values in the shift log, and escalate to maintenance if fault codes reappear within 30 minutes. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. "
+  },
+  {
+    "doc_id": "manual_vffs",
+    "section_id": "vffs_packager:proc-11",
+    "source_type": "manual",
+    "machine": "vffs_packager",
+    "fault_code": null,
+    "title": "5.11 Operating procedure block 11",
+    "body": "Confirm setpoints, verify sensors respond, record values in the shift log, and escalate to maintenance if fault codes reappear within 30 minutes. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. "
+  },
+  {
+    "doc_id": "manual_fan",
+    "section_id": "fan_unit:overview",
+    "source_type": "manual",
+    "machine": "fan_unit",
+    "fault_code": null,
+    "title": "1. Overview",
+    "body": "Industrial Fan Unit Manual. Rated for continuous packaging-line duty. Follow lockout/tagout before any intrusive maintenance."
+  },
+  {
+    "doc_id": "manual_fan",
+    "section_id": "fan_unit:safety",
+    "source_type": "manual",
+    "machine": "fan_unit",
+    "fault_code": null,
+    "title": "2. Safety",
+    "body": "Isolate energy sources. Wear hearing protection near rotating equipment. Do not bypass interlocks during production."
+  },
+  {
+    "doc_id": "manual_fan",
+    "section_id": "fan_unit:E-310",
+    "source_type": "manual",
+    "machine": "fan_unit",
+    "fault_code": "E-310",
+    "title": "3. Fault E-310",
+    "body": "Fault code E-310: Bearing acceleration peak. Troubleshooting: Replace DE bearing; check alignment. Related spare parts: 6208-2RS bearing, Fan pedestal bolt M16, VFD filter kit."
+  },
+  {
+    "doc_id": "manual_fan",
+    "section_id": "fan_unit:E-312",
+    "source_type": "manual",
+    "machine": "fan_unit",
+    "fault_code": "E-312",
+    "title": "3. Fault E-312",
+    "body": "Fault code E-312: Overcurrent on VFD. Troubleshooting: Inspect blade fouling and inlet screen. Related spare parts: 6208-2RS bearing, Fan pedestal bolt M16, VFD filter kit."
+  },
+  {
+    "doc_id": "manual_fan",
+    "section_id": "fan_unit:E-315",
+    "source_type": "manual",
+    "machine": "fan_unit",
+    "fault_code": "E-315",
+    "title": "3. Fault E-315",
+    "body": "Fault code E-315: Imbalance alarm. Troubleshooting: Clean blades; rebalance to ISO G6.3. Related spare parts: 6208-2RS bearing, Fan pedestal bolt M16, VFD filter kit."
+  },
+  {
+    "doc_id": "manual_fan",
+    "section_id": "fan_unit:maintenance",
+    "source_type": "manual",
+    "machine": "fan_unit",
+    "fault_code": null,
+    "title": "4. Preventive maintenance",
+    "body": "Daily: listen for abnormal noise. Weekly: vibration spot check. Monthly: inspect fasteners, lubrication, and seals."
+  },
+  {
+    "doc_id": "manual_fan",
+    "section_id": "fan_unit:proc-01",
+    "source_type": "manual",
+    "machine": "fan_unit",
+    "fault_code": null,
+    "title": "5.1 Operating procedure block 1",
+    "body": "Confirm setpoints, verify sensors respond, record values in the shift log, and escalate to maintenance if fault codes reappear within 30 minutes. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. "
+  },
+  {
+    "doc_id": "manual_fan",
+    "section_id": "fan_unit:proc-02",
+    "source_type": "manual",
+    "machine": "fan_unit",
+    "fault_code": null,
+    "title": "5.2 Operating procedure block 2",
+    "body": "Confirm setpoints, verify sensors respond, record values in the shift log, and escalate to maintenance if fault codes reappear within 30 minutes. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. "
+  },
+  {
+    "doc_id": "manual_fan",
+    "section_id": "fan_unit:proc-03",
+    "source_type": "manual",
+    "machine": "fan_unit",
+    "fault_code": null,
+    "title": "5.3 Operating procedure block 3",
+    "body": "Confirm setpoints, verify sensors respond, record values in the shift log, and escalate to maintenance if fault codes reappear within 30 minutes. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. "
+  },
+  {
+    "doc_id": "manual_fan",
+    "section_id": "fan_unit:proc-04",
+    "source_type": "manual",
+    "machine": "fan_unit",
+    "fault_code": null,
+    "title": "5.4 Operating procedure block 4",
+    "body": "Confirm setpoints, verify sensors respond, record values in the shift log, and escalate to maintenance if fault codes reappear within 30 minutes. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. "
+  },
+  {
+    "doc_id": "manual_fan",
+    "section_id": "fan_unit:proc-05",
+    "source_type": "manual",
+    "machine": "fan_unit",
+    "fault_code": null,
+    "title": "5.5 Operating procedure block 5",
+    "body": "Confirm setpoints, verify sensors respond, record values in the shift log, and escalate to maintenance if fault codes reappear within 30 minutes. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. "
+  },
+  {
+    "doc_id": "manual_fan",
+    "section_id": "fan_unit:proc-06",
+    "source_type": "manual",
+    "machine": "fan_unit",
+    "fault_code": null,
+    "title": "5.6 Operating procedure block 6",
+    "body": "Confirm setpoints, verify sensors respond, record values in the shift log, and escalate to maintenance if fault codes reappear within 30 minutes. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. "
+  },
+  {
+    "doc_id": "manual_fan",
+    "section_id": "fan_unit:proc-07",
+    "source_type": "manual",
+    "machine": "fan_unit",
+    "fault_code": null,
+    "title": "5.7 Operating procedure block 7",
+    "body": "Confirm setpoints, verify sensors respond, record values in the shift log, and escalate to maintenance if fault codes reappear within 30 minutes. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. "
+  },
+  {
+    "doc_id": "manual_fan",
+    "section_id": "fan_unit:proc-08",
+    "source_type": "manual",
+    "machine": "fan_unit",
+    "fault_code": null,
+    "title": "5.8 Operating procedure block 8",
+    "body": "Confirm setpoints, verify sensors respond, record values in the shift log, and escalate to maintenance if fault codes reappear within 30 minutes. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. "
+  },
+  {
+    "doc_id": "manual_fan",
+    "section_id": "fan_unit:proc-09",
+    "source_type": "manual",
+    "machine": "fan_unit",
+    "fault_code": null,
+    "title": "5.9 Operating procedure block 9",
+    "body": "Confirm setpoints, verify sensors respond, record values in the shift log, and escalate to maintenance if fault codes reappear within 30 minutes. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. "
+  },
+  {
+    "doc_id": "manual_fan",
+    "section_id": "fan_unit:proc-10",
+    "source_type": "manual",
+    "machine": "fan_unit",
+    "fault_code": null,
+    "title": "5.10 Operating procedure block 10",
+    "body": "Confirm setpoints, verify sensors respond, record values in the shift log, and escalate to maintenance if fault codes reappear within 30 minutes. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. "
+  },
+  {
+    "doc_id": "manual_fan",
+    "section_id": "fan_unit:proc-11",
+    "source_type": "manual",
+    "machine": "fan_unit",
+    "fault_code": null,
+    "title": "5.11 Operating procedure block 11",
+    "body": "Confirm setpoints, verify sensors respond, record values in the shift log, and escalate to maintenance if fault codes reappear within 30 minutes. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. "
+  },
+  {
+    "doc_id": "manual_pump",
+    "section_id": "centrifugal_pump:overview",
+    "source_type": "manual",
+    "machine": "centrifugal_pump",
+    "fault_code": null,
+    "title": "1. Overview",
+    "body": "Centrifugal Pump Unit Manual. Rated for continuous packaging-line duty. Follow lockout/tagout before any intrusive maintenance."
+  },
+  {
+    "doc_id": "manual_pump",
+    "section_id": "centrifugal_pump:safety",
+    "source_type": "manual",
+    "machine": "centrifugal_pump",
+    "fault_code": null,
+    "title": "2. Safety",
+    "body": "Isolate energy sources. Wear hearing protection near rotating equipment. Do not bypass interlocks during production."
+  },
+  {
+    "doc_id": "manual_pump",
+    "section_id": "centrifugal_pump:E-220",
+    "source_type": "manual",
+    "machine": "centrifugal_pump",
+    "fault_code": "E-220",
+    "title": "3. Fault E-220",
+    "body": "Fault code E-220: Pump vibration RMS above limit. Troubleshooting: Check NPSH, impeller, coupling. Related spare parts: Impeller A-145, Coupling spider CX-40, Grease NLGI-2 EP."
+  },
+  {
+    "doc_id": "manual_pump",
+    "section_id": "centrifugal_pump:E-AUDIO",
+    "source_type": "manual",
+    "machine": "centrifugal_pump",
+    "fault_code": "E-AUDIO",
+    "title": "3. Fault E-AUDIO",
+    "body": "Fault code E-AUDIO: Abnormal acoustic signature. Troubleshooting: Inspect cavitation and bearing grease. Related spare parts: Impeller A-145, Coupling spider CX-40, Grease NLGI-2 EP."
+  },
+  {
+    "doc_id": "manual_pump",
+    "section_id": "centrifugal_pump:E-225",
+    "source_type": "manual",
+    "machine": "centrifugal_pump",
+    "fault_code": "E-225",
+    "title": "3. Fault E-225",
+    "body": "Fault code E-225: Seal flush failure. Troubleshooting: Restore flush flow; replace mechanical seal. Related spare parts: Impeller A-145, Coupling spider CX-40, Grease NLGI-2 EP."
+  },
+  {
+    "doc_id": "manual_pump",
+    "section_id": "centrifugal_pump:maintenance",
+    "source_type": "manual",
+    "machine": "centrifugal_pump",
+    "fault_code": null,
+    "title": "4. Preventive maintenance",
+    "body": "Daily: listen for abnormal noise. Weekly: vibration spot check. Monthly: inspect fasteners, lubrication, and seals."
+  },
+  {
+    "doc_id": "manual_pump",
+    "section_id": "centrifugal_pump:proc-01",
+    "source_type": "manual",
+    "machine": "centrifugal_pump",
+    "fault_code": null,
+    "title": "5.1 Operating procedure block 1",
+    "body": "Confirm setpoints, verify sensors respond, record values in the shift log, and escalate to maintenance if fault codes reappear within 30 minutes. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. "
+  },
+  {
+    "doc_id": "manual_pump",
+    "section_id": "centrifugal_pump:proc-02",
+    "source_type": "manual",
+    "machine": "centrifugal_pump",
+    "fault_code": null,
+    "title": "5.2 Operating procedure block 2",
+    "body": "Confirm setpoints, verify sensors respond, record values in the shift log, and escalate to maintenance if fault codes reappear within 30 minutes. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. "
+  },
+  {
+    "doc_id": "manual_pump",
+    "section_id": "centrifugal_pump:proc-03",
+    "source_type": "manual",
+    "machine": "centrifugal_pump",
+    "fault_code": null,
+    "title": "5.3 Operating procedure block 3",
+    "body": "Confirm setpoints, verify sensors respond, record values in the shift log, and escalate to maintenance if fault codes reappear within 30 minutes. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. "
+  },
+  {
+    "doc_id": "manual_pump",
+    "section_id": "centrifugal_pump:proc-04",
+    "source_type": "manual",
+    "machine": "centrifugal_pump",
+    "fault_code": null,
+    "title": "5.4 Operating procedure block 4",
+    "body": "Confirm setpoints, verify sensors respond, record values in the shift log, and escalate to maintenance if fault codes reappear within 30 minutes. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. "
+  },
+  {
+    "doc_id": "manual_pump",
+    "section_id": "centrifugal_pump:proc-05",
+    "source_type": "manual",
+    "machine": "centrifugal_pump",
+    "fault_code": null,
+    "title": "5.5 Operating procedure block 5",
+    "body": "Confirm setpoints, verify sensors respond, record values in the shift log, and escalate to maintenance if fault codes reappear within 30 minutes. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. "
+  },
+  {
+    "doc_id": "manual_pump",
+    "section_id": "centrifugal_pump:proc-06",
+    "source_type": "manual",
+    "machine": "centrifugal_pump",
+    "fault_code": null,
+    "title": "5.6 Operating procedure block 6",
+    "body": "Confirm setpoints, verify sensors respond, record values in the shift log, and escalate to maintenance if fault codes reappear within 30 minutes. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. "
+  },
+  {
+    "doc_id": "manual_pump",
+    "section_id": "centrifugal_pump:proc-07",
+    "source_type": "manual",
+    "machine": "centrifugal_pump",
+    "fault_code": null,
+    "title": "5.7 Operating procedure block 7",
+    "body": "Confirm setpoints, verify sensors respond, record values in the shift log, and escalate to maintenance if fault codes reappear within 30 minutes. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. "
+  },
+  {
+    "doc_id": "manual_pump",
+    "section_id": "centrifugal_pump:proc-08",
+    "source_type": "manual",
+    "machine": "centrifugal_pump",
+    "fault_code": null,
+    "title": "5.8 Operating procedure block 8",
+    "body": "Confirm setpoints, verify sensors respond, record values in the shift log, and escalate to maintenance if fault codes reappear within 30 minutes. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. "
+  },
+  {
+    "doc_id": "manual_pump",
+    "section_id": "centrifugal_pump:proc-09",
+    "source_type": "manual",
+    "machine": "centrifugal_pump",
+    "fault_code": null,
+    "title": "5.9 Operating procedure block 9",
+    "body": "Confirm setpoints, verify sensors respond, record values in the shift log, and escalate to maintenance if fault codes reappear within 30 minutes. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. "
+  },
+  {
+    "doc_id": "manual_pump",
+    "section_id": "centrifugal_pump:proc-10",
+    "source_type": "manual",
+    "machine": "centrifugal_pump",
+    "fault_code": null,
+    "title": "5.10 Operating procedure block 10",
+    "body": "Confirm setpoints, verify sensors respond, record values in the shift log, and escalate to maintenance if fault codes reappear within 30 minutes. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. "
+  },
+  {
+    "doc_id": "manual_pump",
+    "section_id": "centrifugal_pump:proc-11",
+    "source_type": "manual",
+    "machine": "centrifugal_pump",
+    "fault_code": null,
+    "title": "5.11 Operating procedure block 11",
+    "body": "Confirm setpoints, verify sensors respond, record values in the shift log, and escalate to maintenance if fault codes reappear within 30 minutes. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. Detail paragraph. "
+  }
+]
