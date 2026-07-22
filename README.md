@@ -4,7 +4,7 @@ Multimodal anomaly triage copilot for manufacturing packaging lines.
 
 FactoryPulse watches a simulated form-fill-seal line the way a strong maintenance engineer would: it listens to machine audio, tracks sensor time series, applies hard threshold rules, then digs through equipment manuals and past incidents to explain what broke and what to do next. The output is a cited bilingual triage report (English + Japanese) with confidence, recommended action, and downtime risk so operators are not stuck correlating alarms by hand for 30+ minutes.
 
-> Status: **M2** verified on GitHub Actions (RAG + diagnosis + Next.js). Smoke eval gate included. Langfuse remains optional.
+> Status: **M3** verified on GitHub Actions (RAG + diagnosis + Next.js + evals + Pages showcase). Smoke eval gate included. Langfuse remains optional.
 
 ## Live website
 

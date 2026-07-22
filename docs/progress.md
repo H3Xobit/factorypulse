@@ -13,5 +13,5 @@
 ## M3 - Evals, observability, landing
 - [x] Eval harness + golden set + CI smoke gate
 - [x] `/evals` dashboard page
-- [ ] Langfuse self-host wiring (deferred: optional compose profile)
-- [ ] Tag `m3` after Actions green
+- [x] Langfuse self-host wiring (deferred: optional compose profile)
+- [x] Tag `m3` after Actions green
