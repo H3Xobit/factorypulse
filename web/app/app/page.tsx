@@ -96,6 +96,15 @@ export default function AppPage() {
 
   return (
     <main className="mx-auto grid max-w-6xl gap-6 px-6 py-10 lg:grid-cols-2">
+      <div className="lg:col-span-2">
+      {mode === "demo" && (
+        <div className="mb-4 rounded-2xl border border-accent/40 bg-accent/10 px-4 py-3 text-sm text-zinc-200">
+          Showcase mode: API offline. Inject and diagnose still work with demo data.
+          For the full stack, run <span className="font-mono text-accent">make demo</span> locally.
+        </div>
+      )}
+
+      </div>
       <section className="rounded-2xl border border-white/[0.06] bg-ink-surface p-5">
         <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
           <div>
