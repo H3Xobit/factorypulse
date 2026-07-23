@@ -11,6 +11,11 @@ export default function AppPage() {
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [mode, setMode] = useState<"checking" | "live" | "demo">("checking");
+  const [faultTypes, setFaultTypes] = useState<string[]>([
+    "bearing_degradation",
+    "abnormal_pump_audio",
+    "seal_temp_drift",
+  ]);
 
   async function refreshEventsLive() {
     const res = await fetch(`${apiBase()}/events?limit=20`, { cache: "no-store" });
@@ -28,6 +33,17 @@ export default function AppPage() {
         return;
       }
       setMode("live");
+      try {
+        const meta = await fetch(`${apiBase()}/meta`);
+        if (meta.ok) {
+          const body = await meta.json();
+          if (Array.isArray(body.fault_types) && body.fault_types.length) {
+            setFaultTypes(body.fault_types);
+          }
+        }
+      } catch {
+        /* keep defaults */
+      }
       try {
         await refreshEventsLive();
       } catch (e) {
@@ -116,7 +132,7 @@ export default function AppPage() {
             </p>
           </div>
           <div className="flex flex-wrap gap-2">
-            {["bearing_degradation", "abnormal_pump_audio", "seal_temp_drift"].map((t) => (
+            {faultTypes.map((t) => (
               <button
                 key={t}
                 disabled={busy}
