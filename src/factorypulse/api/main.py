@@ -83,6 +83,20 @@ def health() -> HealthResponse:
     return HealthResponse(status="ok", version=__version__)
 
 
+@app.get("/meta")
+def meta() -> dict:
+    """Lightweight build metadata for the console and CI smoke."""
+    return {
+        "service": "factorypulse-api",
+        "fault_types": [
+            "bearing_degradation",
+            "abnormal_pump_audio",
+            "seal_temp_drift",
+        ],
+        "docs": "/docs",
+    }
+
+
 @app.get("/events")
 def events(limit: int = Query(default=50, ge=1, le=500)) -> list[dict[str, Any]]:
     try:
