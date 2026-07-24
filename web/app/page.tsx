@@ -2,6 +2,8 @@
 
 import { motion, useReducedMotion } from "framer-motion";
 import Link from "next/link";
+import { useEffect, useState } from "react";
+import { apiBase, apiHealthy } from "@/lib/api";
 import { fadeUp, stagger } from "@/lib/motion";
 
 const features = [
@@ -23,7 +25,7 @@ const features = [
   },
 ];
 
-const stats = [
+const defaultStats = [
   { label: "Median triage", value: "< 30s" },
   { label: "Fault inject types", value: "3" },
   { label: "Manual corpus", value: "3 PDFs" },
@@ -32,6 +34,28 @@ const stats = [
 
 export default function LandingPage() {
   const reduce = useReducedMotion();
+  const [stats, setStats] = useState(defaultStats);
+
+  useEffect(() => {
+    (async () => {
+      const healthy = await apiHealthy();
+      if (!healthy) return;
+      try {
+        const res = await fetch(`${apiBase()}/meta`, { cache: "no-store" });
+        if (!res.ok) return;
+        const body = await res.json();
+        const n = Array.isArray(body.fault_types) ? body.fault_types.length : 0;
+        if (!n) return;
+        setStats((prev) =>
+          prev.map((s) =>
+            s.label === "Fault inject types" ? { ...s, value: String(n) } : s,
+          ),
+        );
+      } catch {
+        /* keep static showcase values */
+      }
+    })();
+  }, []);
   return (
     <main>
       <section className="shader-hero relative overflow-hidden border-b border-white/[0.06]">
