@@ -144,6 +144,21 @@ export default function AppPage() {
             ))}
           </div>
         </div>
+        {mode === "live" && (
+          <p className="mb-3 text-xs text-zinc-500">
+            Fault inject types come from <span className="font-mono text-accent">GET /meta</span>.
+            Full API reference:{" "}
+            <a
+              href={`${apiBase()}/docs`}
+              target="_blank"
+              rel="noreferrer"
+              className="text-accent underline-offset-2 hover:underline"
+            >
+              /docs
+            </a>
+            .
+          </p>
+        )}
         {error && <p className="mb-3 text-sm text-red-400">{error}</p>}
         <div className="space-y-3">
           {events.map((e) => (
