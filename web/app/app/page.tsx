@@ -110,6 +110,22 @@ export default function AppPage() {
     }
   }
 
+
+  useEffect(() => {
+    function onKey(e: KeyboardEvent) {
+      if (e.key !== "i" && e.key !== "I") return;
+      const target = e.target as HTMLElement | null;
+      const tag = target?.tagName?.toLowerCase();
+      if (tag === "input" || tag === "textarea" || target?.isContentEditable) return;
+      if (!faultTypes.length || busy) return;
+      e.preventDefault();
+      void inject(faultTypes[0]);
+    }
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [faultTypes, busy, mode]);
+
+
   return (
     <main className="mx-auto grid max-w-6xl gap-6 px-6 py-10 lg:grid-cols-2">
       <div className="lg:col-span-2">
