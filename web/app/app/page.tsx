@@ -161,8 +161,14 @@ export default function AppPage() {
           </div>
         </div>
         {faultTypes.length > 0 && (
-          <p className="mb-3 text-xs text-zinc-500">
-            Press <span className="font-mono text-accent">i</span> to inject the first fault type.
+          <p className={`mb-3 text-xs ${busy ? "text-zinc-600" : "text-zinc-500"}`}>
+            {busy ? (
+              <>Injecting...</>
+            ) : (
+              <>
+                Press <span className="font-mono text-accent">i</span> to inject the first fault type.
+              </>
+            )}
           </p>
         )}
         {mode === "live" && (
