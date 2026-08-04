@@ -113,13 +113,22 @@ export default function AppPage() {
 
   useEffect(() => {
     function onKey(e: KeyboardEvent) {
-      if (e.key !== "i" && e.key !== "I") return;
       const target = e.target as HTMLElement | null;
       const tag = target?.tagName?.toLowerCase();
       if (tag === "input" || tag === "textarea" || target?.isContentEditable) return;
       if (!faultTypes.length || busy) return;
+
+      let idx = -1;
+      if (e.key === "i" || e.key === "I") {
+        idx = 0;
+      } else if (/^[1-9]$/.test(e.key)) {
+        idx = Number(e.key) - 1;
+      } else {
+        return;
+      }
+      if (idx < 0 || idx >= faultTypes.length) return;
       e.preventDefault();
-      void inject(faultTypes[0]);
+      void inject(faultTypes[idx]);
     }
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
@@ -166,7 +175,8 @@ export default function AppPage() {
               <>Injecting...</>
             ) : (
               <>
-                Press <span className="font-mono text-accent">i</span> to inject the first fault type.
+                Press <span className="font-mono text-accent">i</span> or{" "}
+                <span className="font-mono text-accent">1-9</span> to inject a fault type.
               </>
             )}
           </p>
