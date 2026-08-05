@@ -157,13 +157,16 @@ export default function AppPage() {
             </p>
           </div>
           <div className="flex flex-wrap gap-2">
-            {faultTypes.map((t) => (
+            {faultTypes.map((t, i) => (
               <button
                 key={t}
                 disabled={busy}
                 onClick={() => inject(t)}
                 className="rounded-full border border-white/[0.06] px-3 py-1 text-xs text-zinc-300 hover:border-accent hover:text-accent disabled:opacity-50"
               >
+                {i < 9 && (
+                  <span className="mr-1 font-mono text-accent">{i + 1}</span>
+                )}
                 inject {t.replaceAll("_", " ")}
               </button>
             ))}
