@@ -16,6 +16,7 @@ export default function AppPage() {
     "abnormal_pump_audio",
     "seal_temp_drift",
   ]);
+  const [lastInjectedType, setLastInjectedType] = useState<string | null>(null);
 
   async function refreshEventsLive() {
     const res = await fetch(`${apiBase()}/events?limit=20`, { cache: "no-store" });
@@ -66,7 +67,15 @@ export default function AppPage() {
     };
   }, []);
 
+
+  useEffect(() => {
+    if (!lastInjectedType) return;
+    const id = window.setTimeout(() => setLastInjectedType(null), 1500);
+    return () => window.clearTimeout(id);
+  }, [lastInjectedType]);
+
   async function inject(type: string) {
+    setLastInjectedType(type);
     setBusy(true);
     setError(null);
     try {
@@ -162,7 +171,11 @@ export default function AppPage() {
                 key={t}
                 disabled={busy}
                 onClick={() => inject(t)}
-                className="rounded-full border border-white/[0.06] px-3 py-1 text-xs text-zinc-300 hover:border-accent hover:text-accent disabled:opacity-50"
+                className={`rounded-full border px-3 py-1 text-xs disabled:opacity-50 ${
+                  lastInjectedType === t
+                    ? "border-accent text-accent"
+                    : "border-white/[0.06] text-zinc-300 hover:border-accent hover:text-accent"
+                }`}
               >
                 {i < 9 && (
                   <span className="mr-1 font-mono text-accent">{i + 1}</span>
