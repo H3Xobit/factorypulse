@@ -4,10 +4,29 @@ import { useEffect, useState } from "react";
 import { apiBase, apiHealthy } from "@/lib/api";
 import { DEMO_EVENTS, demoReportFor, type EventRow, type ReportRow } from "@/lib/demo-data";
 
+function readLang(): "en" | "ja" {
+  if (typeof window === "undefined") return "en";
+  try {
+    const saved = window.localStorage.getItem("fp.lang");
+    if (saved === "en" || saved === "ja") return saved;
+  } catch {
+    /* ignore */
+  }
+  return "en";
+}
+
 export default function AppPage() {
   const [events, setEvents] = useState<EventRow[]>([]);
   const [report, setReport] = useState<ReportRow | null>(null);
-  const [lang, setLang] = useState<"en" | "ja">("en");
+  const [lang, setLang] = useState<"en" | "ja">(() => readLang());
+
+  useEffect(() => {
+    try {
+      window.localStorage.setItem("fp.lang", lang);
+    } catch {
+      /* ignore quota / private mode */
+    }
+  }, [lang]);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [mode, setMode] = useState<"checking" | "live" | "demo">("checking");
