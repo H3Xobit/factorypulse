@@ -144,6 +144,13 @@ export default function AppPage() {
       const target = e.target as HTMLElement | null;
       const tag = target?.tagName?.toLowerCase();
       if (tag === "input" || tag === "textarea" || target?.isContentEditable) return;
+
+      if (e.key === "l" || e.key === "L") {
+        e.preventDefault();
+        setLang((prev) => (prev === "en" ? "ja" : "en"));
+        return;
+      }
+
       if (!faultTypes.length || busy) return;
 
       let idx = -1;
@@ -257,18 +264,23 @@ export default function AppPage() {
       <section className="rounded-2xl border border-white/[0.06] bg-ink-surface p-5">
         <div className="mb-4 flex items-center justify-between">
           <h2 className="font-display text-2xl text-white">Triage report</h2>
-          <div className="flex rounded-full border border-white/[0.06] p-1">
-            {(["en", "ja"] as const).map((l) => (
-              <button
-                key={l}
-                onClick={() => setLang(l)}
-                className={`rounded-full px-3 py-1 text-xs uppercase ${
-                  lang === l ? "bg-accent text-black" : "text-zinc-400"
-                }`}
-              >
-                {l}
-              </button>
-            ))}
+          <div className="flex items-center gap-2">
+            <span className="text-[10px] uppercase tracking-wide text-zinc-600">
+              <span className="font-mono normal-case text-zinc-500">l</span> toggle
+            </span>
+            <div className="flex rounded-full border border-white/[0.06] p-1">
+              {(["en", "ja"] as const).map((l) => (
+                <button
+                  key={l}
+                  onClick={() => setLang(l)}
+                  className={`rounded-full px-3 py-1 text-xs uppercase ${
+                    lang === l ? "bg-accent text-black" : "text-zinc-400"
+                  }`}
+                >
+                  {l}
+                </button>
+              ))}
+            </div>
           </div>
         </div>
         {!report && <p className="text-sm text-zinc-500">Select an event to run diagnosis.</p>}
