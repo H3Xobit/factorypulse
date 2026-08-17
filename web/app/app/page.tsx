@@ -146,6 +146,7 @@ export default function AppPage() {
       if (tag === "input" || tag === "textarea" || target?.isContentEditable) return;
 
       if (e.key === "l" || e.key === "L") {
+        if (busy) return;
         e.preventDefault();
         setLang((prev) => (prev === "en" ? "ja" : "en"));
         return;
