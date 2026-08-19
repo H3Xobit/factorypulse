@@ -273,8 +273,10 @@ export default function AppPage() {
               {(["en", "ja"] as const).map((l) => (
                 <button
                   key={l}
+                  type="button"
+                  disabled={busy}
                   onClick={() => setLang(l)}
-                  className={`rounded-full px-3 py-1 text-xs uppercase ${
+                  className={`rounded-full px-3 py-1 text-xs uppercase disabled:opacity-50 ${
                     lang === l ? "bg-accent text-black" : "text-zinc-400"
                   }`}
                 >
