@@ -266,8 +266,15 @@ export default function AppPage() {
         <div className="mb-4 flex items-center justify-between">
           <h2 className="font-display text-2xl text-white">Triage report</h2>
           <div className="flex items-center gap-2">
-            <span className="text-[10px] uppercase tracking-wide text-zinc-600">
-              <span className="font-mono normal-case text-zinc-500">l</span> toggle
+            <span
+              className={`text-[10px] uppercase tracking-wide ${
+                busy ? "text-zinc-700" : "text-zinc-600"
+              }`}
+            >
+              <span className={`font-mono normal-case ${busy ? "text-zinc-700" : "text-zinc-500"}`}>
+                l
+              </span>{" "}
+              toggle
             </span>
             <div className="flex rounded-full border border-white/[0.06] p-1">
               {(["en", "ja"] as const).map((l) => (
